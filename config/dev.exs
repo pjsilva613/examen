@@ -2,12 +2,12 @@ use Mix.Config
 
 # Configure your database
 config :examen, Examen.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "examen_dev",
-  hostname: "localhost",
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
+username: "postgres",
+password: "Pjsilva",
+database: "examen",
+hostname: "localhost",
+show_sensitive_data_on_connection_error: true,
+pool_size: 10
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
